@@ -29,7 +29,7 @@ def check_rolls():
     while True:
         try:
             rolls = input(
-                f"Insira o número de dados a serem jogados entre ({MIN_ROLLS} - {MAX_ROLLS}): ") # EU CONSEGUIA(ISDASDHAHAAHAHAHAHAHHASDijhdsfiuvhduvhedfruyfgb)
+                f"Insira o número de dados a serem jogados entre ({MIN_ROLLS} - {MAX_ROLLS}): ")
             rolls = int(rolls)
             if rolls > MIN_ROLLS and rolls <= MAX_ROLLS:
                 return rolls
